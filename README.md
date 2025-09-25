@@ -1,1 +1,1 @@
-# standard-ami
+# standard-images
