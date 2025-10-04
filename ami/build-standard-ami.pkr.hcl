@@ -35,6 +35,6 @@ build {
   sources = ["source.amazon-ebs.standard-ami"]
 
   provisioner "shell" {
-    script = "./scripts/init.sh"
+    script = "./ami/scripts/init.sh"
   }
 }

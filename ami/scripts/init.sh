@@ -9,9 +9,9 @@ sudo systemctl start httpd
 
 echo "install and start docker"
 
-yum install -y docker
-systemctl enable docker
-systemctl start docker
+sudo yum install -y docker
+sudo systemctl enable docker
+sudo systemctl start docker
 
 ehco "allow ec2-user to run docker"
 usermod -aG docker ec2-user || true
